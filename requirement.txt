@@ -1,0 +1,99 @@
+
+✅ streamlit:
+    ✨ installation: pip install streamlit
+    ✨ import streamlit as st
+    run: python -m streamlit run file_name.py 
+
+➡️ Uses - Create Web Applications
+          Buttons
+          Dropdown menus
+          Display tables
+          Display images
+          Build ML applications without HTML/CSS
+
+
+
+✅ numpy: 
+    ✨ installation: pip install numpy 
+    ✨ import numpy as np 
+
+➡️ Uses - Numerical calculations
+           Arrays and matrices
+           Mathematical operations
+
+
+
+
+✅ pandas: 
+    ✨ installation: pip install pandas
+    ✨ import pandas as pd 
+
+➡️ Uses -  Read CSV files
+           Data cleaning
+           Data analysis
+           Create DataFrames
+
+
+
+✅ ast:
+    ✨  installation: No installation required. It is a built-in Python library.
+    ✨  import ast 
+
+➡️ Uses - Converts strings representation of a python object into actual python object
+
+    '[{"id": 28, "name": "Action"}, {"id": 12, "name": "Adventure"}, {"id": 14, "name": "Fantasy"}, {"id": 878, "name": "Science Fiction"}]'
+
+converts into -
+
+    [{'id': 28, 'name': 'Action'},
+    {'id': 12, 'name': 'Adventure'},
+    {'id': 14, 'name': 'Fantasy'},
+    {'id': 878, 'name': 'Science Fiction'}]
+
+
+
+✅ pickle: 
+    ✨  installation: No installation required. It is a built-in Python library.
+    ✨  import pickle 
+
+➡️ Uses - Save Machine Learning models and Python objects.
+
+
+
+✅ requests:
+    ✨ installation: pip install requests
+    ✨ import requests
+
+➡️ Uses - Connect to APIs 
+       My project use to get movie poster from TMDB 
+
+
+✅ CountVectorizer:
+    ✨ installation: pip install scikit-learn
+    ✨ from sklearn.feature_extraction.text import CountVectorizer
+
+➡️ Uses - Converts text into Numerical Vector  
+    Sentence1 - I watch movies.
+    Sentence2 - I watch Action movies.
+
+    CountVectorizer create a matrix likes below -
+
+    Words           S1          S2
+    I               1           1
+    watch           1           1
+    movies          1           1
+    Action          0           1
+
+
+✅ cosine_similarity:
+
+    ✨ installation: pip install scikit-learn
+    ✨ from sklearn.metrics.pairwise import cosine_similarity
+
+➡️ Uses - Calculates similarity between two vectors.
+
+          Movie recommendation uses cosine similarity to find movies with similar features.
+
+
+
+
